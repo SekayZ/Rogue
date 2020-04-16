@@ -1,0 +1,21 @@
+language: php
+
+php:
+  - 7.2
+
+before_script:
+  - cd ./rogue
+  - cp .env.travis .env
+  - composer self-update
+  - composer install --prefer-source --no-interaction
+  - php artisan key:generate
+  - php artisan migrate
+
+before_install:
+  - mysql -e 'CREATE DATABASE test;'
+
+script:
+  - vendor/bin/phpunit
+
+services:
+  - mysql

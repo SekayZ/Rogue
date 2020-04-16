@@ -1,0 +1,264 @@
+/* Registration view CSS*/
+
+.reg_html {
+    height: 100%;
+}
+
+.reg_h1 {
+    text-align: center;
+}
+
+.reg_body {
+    height: 100vh;
+    font-family: "Roboto Light", sans-serif;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-color: black;
+    display: flex;
+}
+
+
+.reg_container{
+    width: 750px;
+    height: 700px;
+    margin:auto;
+    background-color: black;
+}
+
+.reg_field_container {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 30px;
+    padding: 10% 10%;
+    background: white;
+    border-radius: 15px;
+}
+
+.reg_input_submit{
+    background-color: black;
+    padding-left: 0;
+    font-weight: bold;
+    color: white;
+    text-transform: uppercase;
+    height: 40px;
+    border-radius: 15px;
+    width: 25%;
+    position: relative;
+    display: block;
+    margin : 0 auto;
+}
+
+.reg_input_submit:hover {    
+    background-color: whitesmoke;
+}
+
+.reg_input_style {
+    background-color: white;
+    border: 2px solid black;
+    display: flex;
+    align-items: center;
+    padding: 1%;
+    height: 60px;
+    border-radius: 15px;
+    width: 100%;
+}
+
+.reg_input_style:hover {
+    background-color: whitesmoke;
+}
+
+.reg_input_field {
+    color: black;
+    background-color: inherit;
+    width: 90%;
+    border: none;
+    font-size: 1.3rem;
+    font-weight: 400;
+    padding-left: 30px;
+}
+
+.reg_input_field:hover,
+.reg_input_field:focus {
+    outline: none;
+}
+
+
+/* Login view CSS*/
+
+.login_html {
+    height: 100%;
+    background-color: black;
+}
+
+.login_body {
+    height: 100vh;
+    font-family: "Roboto Light", sans-serif;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-color: black;
+    display: flex;
+}
+
+
+.login_container{
+
+    width: 1300px;
+    height: 800px;
+    margin:auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-gap: 5vw;
+    padding: 5vh 15px;
+    background-color: black;
+
+}
+
+.login_left_container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.login_left_container img {
+    width: 100%;
+    height: 80%;
+}
+
+.login_right_container {
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-gap: 30px;
+    padding: 20% 10%;
+    background: white;
+    border-radius: 15px;
+}
+
+.login_input_style {
+    background-color: white;
+    border: 2px solid black;
+    display: flex;
+    align-items: center;
+    padding: 1%;
+    height: 60px;
+    border-radius: 15px;
+    width: 100%;
+}
+
+.login_input_style:hover {
+    background-color: whitesmoke;
+}
+
+.login_input_field {
+    color: black;
+    background-color: inherit;
+    width: 90%;
+    border: none;
+    font-size: 1.3rem;
+    font-weight: 400;
+    padding-left: 30px;
+}
+
+.login_input_field:hover,
+.login_input_field:focus {
+    outline: none;
+}
+
+.login_input_submit{
+    background-color: black;
+    padding-left: 0;
+    font-weight: bold;
+    color: white;
+    text-transform: uppercase;
+    height: 60px;
+    border-radius: 15px;
+    width: 50%;
+    position: relative;
+    display: block;
+    margin : 0 auto;
+}
+
+.login_input_submit:hover {
+    background-color: whitesmoke;
+}
+
+.login_header {
+    text-align: center;
+}
+
+.login_span {
+    text-align: center;
+}
+
+.login_a{    font-family: "Roboto Light", sans-serif;
+    color: black;
+}
+
+/* Welcome view CSS*/
+
+#welcome{
+    position: relative; top: 50px;
+}
+
+#welcome_logo{
+    position: relative; max-height:300px;  top: 70px;
+}
+
+#text_container_welcome{
+    text-align: center;
+}
+
+#body_welcome_page{
+    background-color: black;
+}
+
+/* Edit profile view view CSS*/
+
+#username-edit{
+    position:relative; left:-55px;
+}
+
+#title-edit{
+    position: relative; left:-55px;
+}
+
+#profile_photo-edit{
+    position:relative; left:-54px;
+}
+
+#image-edit{
+    border:0px;position: relative;align-self: center; right:-14px;
+}
+
+#update_profile-edit{
+    position: relative;left: 14px;
+}
+#edit_box{
+    position: relative;top: 30px;
+}
+
+/* Post image view CSS*/
+
+#post_box{
+    position: relative;top: 30px;
+}
+#post_picture_text{
+    position: relative; right: 50px;
+}
+#choose_file_button{
+    position: relative; right: 9px;
+}
+#image_upload_post{
+    border:0px;position: relative;right: -70px;
+}
+#pic_caption_div{
+    position: relative; right: 50px;
+}
+#post_button_div{
+    position: relative;left: 50px;
+}
+
+/* Navbar CSS*/
+
+#logo_navbar{
+    height: 45px;  border-radius:50px;
+}
