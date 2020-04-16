@@ -9,3 +9,8 @@ Learn how to use different tools to develop software and implement Agile methods
 * __Working software__ over comprehensive documentation
 * __Customer collaboration__ over contract negotiation
 * __Responding to change__ over following a plan
+
+## Tech Stack (Laravel)
+* PHP
+* Vue.js
+* mySQL
